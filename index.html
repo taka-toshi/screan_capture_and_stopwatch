@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
 
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="./sample.js" defer></script>
-		<link rel="stylesheet" type="text/css" href="./style.css">
-		<title>test</title>
-	</head>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="./sample.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<title>test</title>
+</head>
 
-	<body bgcolor="white" text="black">
-		<div class="main">
-			<div class="contentA">
-				<p><button id="start">Start Capture</button>&nbsp;<button id="stop">Stop Capture</button></p>
-				
-				<video controls id="video" autoplay></video>
+<body bgcolor="white" text="black">
+	<div class="main">
+		<div class="contentA">
+			<p><button id="start">Start Capture</button>&nbsp;<button id="stop">Stop Capture</button></p>
+
+			<video controls id="video" autoplay></video>
+			<br>
+			<p><input type="text" id="name" required size="77"></p>
+			<details>
+				<summary><strong>Log:</strong></summary>
 				<br>
-				<p><input type="text" id="name" required size="77"></p>
-				<details>
-					<summary><strong>Log:</strong></summary>
-					<br>
-					<pre id="log"></pre>
-				</details>
+				<pre id="log"></pre>
+			</details>
+		</div>
+		<div class="contentB">
+			<div id="timeContainer">
+				<div id="timeDisplay">00:00:00</div>
+				<button id="startBtn" class="timerBtn">Start</button>
+				<button id="pauseBtn" class="timerBtn">Pause</button>
+				<button id="resetBtn" class="timerBtn">Reset</button>
 			</div>
-			<div class="contentB">
-
-			</div>
-
 		</div>
 
+	</div>
 
-	</body>
+
+</body>
 
 </html>
