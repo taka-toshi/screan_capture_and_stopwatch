@@ -1,7 +1,15 @@
 #video {
   border: 1px solid #999;
-  width: 98%;
-  max-width: 860px;
+  width: 100%;
+  max-width: 800px;
+  margin: 4px;
+  padding: 4px;
+}
+
+button{
+  border: 1px solid green;
+  margin: 3px;
+  padding: 2px;
 }
 
 .error {
@@ -15,3 +23,29 @@
 .info {
   color: darkgreen;
 }
+
+input{
+  font-size: 120%;
+  padding: 10px;
+}
+
+.contentA{
+  width: 70%;
+  border: 1px solid #999;
+  margin: 4px;
+  padding: 4px;
+ }
+
+ .contentB{
+  width: 30%;
+  border: 1px solid #999;
+  margin: 4px;
+  padding: 4px;
+ }
+  
+ .main{
+  display: flex;
+  border: 1px solid red;
+  margin: 4px;
+  padding: 4px;
+ }

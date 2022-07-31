@@ -10,15 +10,26 @@
 	</head>
 
 	<body bgcolor="white" text="black">
+		<div class="main">
+			<div class="contentA">
+				<p><button id="start">Start Capture</button>&nbsp;<button id="stop">Stop Capture</button></p>
+				
+				<video controls id="video" autoplay></video>
+				<br>
+				<p><input type="text" id="name" required size="77"></p>
+				<details>
+					<summary><strong>Log:</strong></summary>
+					<br>
+					<pre id="log"></pre>
+				</details>
+			</div>
+			<div class="contentB">
 
-		<p><button id="start">Start Capture</button>&nbsp;<button id="stop">Stop Capture</button></p>
+			</div>
 
-		<video controls id="video" autoplay></video>
-		<br>
+		</div>
 
-		<strong>Log:</strong>
-		<br>
-		<pre id="log"></pre>
+
 	</body>
 
 </html>
